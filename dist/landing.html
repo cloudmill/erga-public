@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Erga</title>
+		<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="assets/vendors.css" rel="stylesheet">
+		<link href="assets/app.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="loader">
+			<div class="loader-body">
+				<svg width="343" height="302" viewbox="0 0 343 302" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M262.113 163C304.314 147.9 332 122.544 332 93.8125C332 47.5241 260.142 10 171.5 9.99999C82.8583 9.99999 11 47.5241 11 93.8125C11 122.544 38.6862 147.9 80.8872 163" stroke="#DADADA" id="theMotionPath"></path>
+					<path d="M166 9.5L174.25 4.73686L174.25 14.2631L166 9.5Z" fill="#DADADA"></path>
+					<path d="M166 53L174.25 48.6699L174.25 57.3301L166 53Z" fill="#DADADA"></path>
+					<path d="M23.0499 125.148L14.2892 121.406L21.9099 115.69L23.0499 125.148Z" fill="#DADADA"></path>
+					<path d="M325.927 116.519L326.383 126.034L317.915 121.671L325.927 116.519Z" fill="#DADADA"></path>
+					<path d="M255.018 39.1181L264.441 37.7147L260.945 46.5764L255.018 39.1181Z" fill="#DADADA"></path>
+					<path d="M78.0163 43.1525L83.9456 35.6964L87.4381 44.5594L78.0163 43.1525Z" fill="#DADADA"></path>
+					<path d="M255.903 167C295.211 153.084 321 129.717 321 103.239C321 60.5811 254.067 26 171.5 26C88.9334 26 22 60.5811 22 103.239C22 129.717 47.7887 153.084 87.0974 167" stroke="#DADADA"></path>
+					<path d="M250.821 169C287.764 157.551 312 138.328 312 116.544C312 81.4497 249.096 53 171.5 53C93.904 53 31 81.4497 31 116.544C31 138.328 55.2362 157.551 92.1785 169" stroke="#DADADA"></path>
+					<path d="M262.113 138C304.314 153.1 332 178.456 332 207.187C332 253.476 260.142 291 171.5 291C82.8583 291 11 253.476 11 207.188C11 178.456 38.6862 153.1 80.8872 138" stroke="#DADADA" id="theMotionPath2"></path>
+					<path d="M166 291.5L174.25 296.263L174.25 286.737L166 291.5Z" fill="#DADADA"></path>
+					<path d="M166 248L174.25 252.33L174.25 243.67L166 248Z" fill="#DADADA"></path>
+					<path d="M23.0499 175.852L14.2892 179.594L21.9099 185.31L23.0499 175.852Z" fill="#DADADA"></path>
+					<path d="M325.927 184.481L326.383 174.966L317.915 179.329L325.927 184.481Z" fill="#DADADA"></path>
+					<path d="M255.018 261.882L264.441 263.285L260.945 254.424L255.018 261.882Z" fill="#DADADA"></path>
+					<path d="M78.0163 257.848L83.9456 265.304L87.4381 256.441L78.0163 257.848Z" fill="#DADADA"></path>
+					<path d="M255.903 134C295.211 147.916 321 171.283 321 197.761C321 240.419 254.067 275 171.5 275C88.9334 275 22 240.419 22 197.761C22 171.283 47.7887 147.916 87.0974 134" stroke="#DADADA"></path>
+					<path d="M250.821 132C287.764 143.449 312 162.672 312 184.456C312 219.55 249.096 248 171.5 248C93.904 248 31 219.55 31 184.456C31 162.672 55.2362 143.449 92.1785 132" stroke="#DADADA"></path>
+					<circle class="circleOne" r="6" fill="#DF0112">
+						<animateMotion dur="5s" repeatCount="indefinite">
+							<mpath xlink:href="#theMotionPath"></mpath>
+						</animateMotion>
+						<animate attributeName="fill" values="#0000BD;#DF0112;#0000BD" dur="5s" repeatCount="indefinite"></animate>
+						<animate attributeName="r" values="6;10;6" dur="5s" repeatCount="indefinite"></animate>
+						<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.1s" repeatCount="once" fill="freeze"></animate>
+					</circle>
+					<circle class="circleTwo" r="6" fill="#DF0112">
+						<animateMotion dur="5s" repeatCount="indefinite">
+							<mpath xlink:href="#theMotionPath2"></mpath>
+						</animateMotion>
+						<animate attributeName="fill" values="#0000BD;#DF0112;#0000BD" dur="5s" repeatCount="indefinite"></animate>
+						<animate attributeName="r" values="6;10;6" dur="5s" repeatCount="indefinite"></animate>
+						<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.1s" repeatCount="once" fill="freeze"></animate>
+					</circle>
+					<rect x="51" y="109" width="125" height="80" fill="#0000BD"></rect>
+					<rect x="176" y="109" width="115" height="80" fill="#DF0112"></rect>
+					<path d="M102.85 132.648V140.276H81.1617V145.211H101.814V152.739H81.1617V157.724H102.85V165.352H72V132.648H102.85Z" fill="white"></path>
+					<path d="M155.728 143.965C155.728 146.624 154.899 148.784 153.243 150.446C151.587 152.108 149.188 153.171 146.048 153.636L155.521 164.006V165.352H145.168L135.075 153.886H129.743V165.352H120.582V132.648H142.373C146.514 132.648 149.775 133.612 152.156 135.54C154.537 137.467 155.728 140.109 155.728 143.466V143.965ZM146.411 143.416C146.411 141.356 144.996 140.326 142.166 140.326H129.743V147.056H142.166C143.546 147.056 144.599 146.79 145.324 146.258C146.048 145.726 146.411 144.945 146.411 143.915V143.416Z" fill="white"></path>
+					<path d="M226.213 147.056V165.352H218.034L217.827 162.959C216.24 164.022 214.497 164.804 212.599 165.302C210.736 165.767 208.562 166 206.078 166C201.764 166 198.003 165.319 194.794 163.956C191.619 162.593 189.169 160.649 187.443 158.123C185.718 155.597 184.855 152.623 184.855 149.199V148.85C184.855 145.494 185.718 142.552 187.443 140.026C189.169 137.467 191.619 135.49 194.794 134.094C197.968 132.698 201.661 132 205.87 132C210.011 132 213.6 132.482 216.637 133.446C219.708 134.41 222.055 135.789 223.676 137.584C225.333 139.378 226.161 141.489 226.161 143.915V144.114H216.792V143.915C216.792 143.217 216.309 142.569 215.343 141.971C214.377 141.339 213.083 140.841 211.461 140.475C209.839 140.109 208.096 139.927 206.233 139.927C202.264 139.927 199.262 140.674 197.226 142.17C195.19 143.666 194.172 145.859 194.172 148.751V149.349C194.172 152.274 195.173 154.451 197.175 155.88C199.176 157.309 202.195 158.023 206.233 158.023C208.648 158.023 210.805 157.791 212.703 157.326C214.635 156.86 216.206 156.196 217.413 155.331V153.886H200.953V147.056H226.213Z" fill="white"></path>
+					<path d="M279 164.006V165.352H269.942L267.302 159.32H251.463L248.823 165.352H239.765V164.006L254.31 132.648H264.455L279 164.006ZM264.093 151.891L259.382 141.073L254.672 151.891H264.093Z" fill="white"></path>
+				</svg>
+			</div>
+			<div class="marquee"><span class="marquee--inner">
+					<div>Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA</div>
+					<div>Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA</div>
+				</span></div>
+			<div class="loader-outer"></div>
+		</div>
+		<header class="header-plain">
+			<section class="header-plain__bar">
+				<div class="header-plain__bar-row">
+					<div class="header-plain__bar-col">
+						<div class="header-plain__left-row">
+							<div class="header-plain__left-col"><a class="header-plain__logo-image" href="#"><img class="header-plain__logo-img" src="assets/images/logo-en.svg" alt=""></a></div>
+							<div class="header-plain__left-col"><a class="arrowLine" href="#" target="_blank">
+									<div class="the-arrow the-arrow-left"><i class="shaft icon-arrow-med-right"></i></div><span class="arrowLine-main">Go global</span>
+									<div class="the-arrow the-arrow-right"><i class="shaft icon-arrow-mini-right"></i></div>
+								</a>
+							</div>
+							<div class="header-plain__left-col">
+								<div class="language-eng"><span class="lang lang-main">En</span>
+									<div class="select-lang">
+										<div class="lang lang-act"><a href="#">En</a></div>
+										<div class="lang lang-disabled"><a href="#">فارسی</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-plain__bar-col">
+						<nav class="header-plain__nav">
+							<ul class="header-plain__nav-list">
+								<li class="header-plain__nav-item"><a class="header-plain__nav-link" href="#about">About ERGA</a></li>
+								<li class="header-plain__nav-item"><a class="header-plain__nav-link" href="#products">Products</a></li>
+								<li class="header-plain__nav-item"><a class="header-plain__nav-link" href="#industries">Industries</a></li>
+								<li class="header-plain__nav-item"><a class="header-plain__nav-link" href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header-plain__bar-col"><a class="header-plain__button" href="#"><span></span><span></span><span></span></a></div>
+				</div>
+			</section>
+			<section class="header-plain__dropdown">
+				<div class="header-plain__dropdown-row">
+					<div class="header-plain__dropdown-col">
+						<nav class="header-plain__dropdown-nav">
+							<ul class="header-plain__dropdown-nav-list">
+								<li class="header-plain__dropdown-nav-item"><a class="header-plain__dropdown-nav-link" href="#about">About ERGA</a></li>
+								<li class="header-plain__dropdown-nav-item"><a class="header-plain__dropdown-nav-link" href="#products">Products</a></li>
+								<li class="header-plain__dropdown-nav-item"><a class="header-plain__dropdown-nav-link" href="#industries">Industries</a></li>
+								<li class="header-plain__dropdown-nav-item"><a class="header-plain__dropdown-nav-link" href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header-plain__dropdown-col"><a class="arrowLine" href="#" target="_blank">
+							<div class="the-arrow the-arrow-left"><i class="shaft icon-arrow-med-right"></i></div><span class="arrowLine-main">Go global</span>
+							<div class="the-arrow the-arrow-right"><i class="shaft icon-arrow-mini-right"></i></div>
+						</a>
+					</div>
+				</div>
+			</section>
+		</header>
+		<main class="main page-plain">
+			<div class="landing">
+				<section class="landing__top-section">
+					<div class="landing__top-first-block">
+						<div class="landing__top-first-background-layout">
+							<div class="landing__top-first-background-image" data-aos="fade-up" style="background-image: url('images/top-background.png')"></div>
+						</div>
+						<div class="container">
+							<h1 class="landing__top-title" data-aos="fade-up">Research &amp; Production Company ERGA</h1>
+							<div class="landing__top-first-description-block">
+								<p class="landing__top-first-description-text" data-aos="fade-up">Russian largest manufacturer<br>of magnetic systems and industrial equipment</p>
+							</div>
+							<div class="landing__top-slider-block" data-aos="fade-up">
+								<div class="landing__top-slider-buttons" data-aos="fade-up">
+									<div class="landing__top-slider-button landing__top-slider-button--left"><i class="icon-arrow-right"></i></div>
+									<div class="landing__top-slider-button landing__top-slider-button--right"><i class="icon-arrow-right"></i></div>
+								</div>
+								<div class="landing__top-slider-pagination" data-aos="fade-up">
+									<div class="landing__top-slider-pagination-item landing__top-slider-pagination-item--active"></div>
+									<div class="landing__top-slider-pagination-item"></div>
+									<div class="landing__top-slider-pagination-item"></div>
+								</div>
+								<div class="landing__top-slider-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide landing__top-slider-slide">
+											<figure class="landing__top-slider-image"><img class="landing__top-slider-img" src="assets/images/landing/top-slide-1.png" alt=""></figure>
+										</div>
+										<div class="swiper-slide landing__top-slider-slide">
+											<figure class="landing__top-slider-image"><img class="landing__top-slider-img" src="assets/images/landing/top-slide-1.png" alt=""></figure>
+										</div>
+										<div class="swiper-slide landing__top-slider-slide">
+											<figure class="landing__top-slider-image"><img class="landing__top-slider-img" src="assets/images/landing/top-slide-1.png" alt=""></figure>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container" id="about">
+						<div class="landing__top-about-block" data-aos="fade-up">
+							<div class="landing__top-about-row">
+								<div class="landing__top-about-col">
+									<h2 class="landing__top-about-title" data-aos="fade-up">About ERGA</h2>
+								</div>
+								<div class="landing__top-about-col">
+									<p class="landing__top-about-text" data-aos="fade-up">The key activity of the company is development and production of equipment for mineral processing, air-gravity separation, complete solutions for the processing of various waste and separation of materials by electrical properties.</p>
+								</div>
+							</div>
+						</div>
+						<div class="landing__top-movie-block">
+							<div class="approach-video" id="video_block" data-aos="fade-up">
+								<div class="approach-video-link"><img src="assets/images/video.svg" alt="" />
+								</div><img src="assets/images/about/video.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="landing__features-section">
+					<div class="landing__features-decoration-block" data-aos="fade-up">
+						<ul class="landing__features-decoration-list">
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+							<li class="landing__features-decoration-item"></li>
+						</ul>
+					</div>
+					<div class="container">
+						<div class="landing__features-wrapper">
+							<ul class="landing__features1">
+								<li class="landing__features1-item" data-aos="fade-up">
+									<h3 class="landing__features1-title">Research</h3>
+									<p class="landing__features1-text">LIMiTS testing laboratory / Testing laboratory for mineral and industrial raw materials</p>
+								</li>
+								<li class="landing__features1-item" data-aos="fade-up">
+									<h3 class="landing__features1-title">Design</h3>
+									<p class="landing__features1-text">Design and engineering solution of the tasks</p>
+								</li>
+								<li class="landing__features1-item" data-aos="fade-up">
+									<h3 class="landing__features1-title">Production <span class="landing__features1-title-red">since 1991</span></h3>
+									<p class="landing__features1-text">&gt; 25 000 m² of modern production faciities</p>
+								</li>
+								<li class="landing__features1-item" data-aos="fade-up">
+									<h3 class="landing__features1-title">Implementation</h3>
+									<p class="landing__features1-text">Professional service support: supervision and commissioning works, equipment diagnostics and repair, training of the customer's maintenance personnel</p>
+								</li>
+							</ul>
+							<ul class="landing__features2">
+								<li class="landing__features2-item" data-aos="fade-up">
+									<figure class="landing__features2-image"><img class="landing__features2-img" src="assets/images/landing/feature-1.svg" alt=""></figure>
+									<p class="landing__features2-text">ISO 9001: 2015 quality system</p>
+								</li>
+								<li class="landing__features2-item" data-aos="fade-up">
+									<figure class="landing__features2-image"><img class="landing__features2-img" src="assets/images/landing/feature-2.svg" alt=""></figure>
+									<p class="landing__features2-text">&gt; 200 qualified employees</p>
+								</li>
+								<li class="landing__features2-item" data-aos="fade-up">
+									<figure class="landing__features2-image"><img class="landing__features2-img" src="assets/images/landing/feature-3.svg" alt=""></figure>
+									<p class="landing__features2-text">Full production cycle</p>
+								</li>
+								<li class="landing__features2-item" data-aos="fade-up">
+									<figure class="landing__features2-image"><img class="landing__features2-img" src="assets/images/landing/feature-4.svg" alt=""></figure>
+									<p class="landing__features2-text">Successful experience in export deliveries</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section class="landing__industries-section" id="industries">
+					<div class="container">
+						<div class="landing__interesting-title-row">
+							<div class="landing__interesting-title-col" data-aos="fade-up">
+								<h2 class="landing__section-title">Industries</h2>
+							</div>
+							<div class="landing__interesting-title-col" data-aos="fade-up"><a class="arrowLine" href="#" target="_blank">
+									<div class="the-arrow the-arrow-left"><i class="shaft icon-arrow-med-right"></i></div><span class="arrowLine-main">Show all industries</span>
+									<div class="the-arrow the-arrow-right"><i class="shaft icon-arrow-mini-right"></i></div>
+								</a>
+							</div>
+						</div>
+						<ul class="landing__industries-list">
+							<li class="landing__industries-item" data-aos="fade-up"><a class="landing__industries-link" href="#select">
+									<figure class="landing__industries-image"><img class="landing__industries-img" src="assets/images/landing/industry-1.svg" alt=""></figure>
+									<h3 class="landing__industries-title">Mining</h3>
+								</a></li>
+							<li class="landing__industries-item" data-aos="fade-up"><a class="landing__industries-link popup-plain" href="#download" data-popup-title="Download catalog" data-type-form="Download catalog">
+									<figure class="landing__industries-image"><img class="landing__industries-img" src="assets/images/landing/industry-2.svg" alt=""></figure>
+									<h3 class="landing__industries-title">Food</h3>
+								</a></li>
+							<li class="landing__industries-item" data-aos="fade-up"><a class="landing__industries-link popup-plain" href="#download" data-popup-title="Download catalog" data-type-form="Download catalog">
+									<figure class="landing__industries-image"><img class="landing__industries-img" src="assets/images/landing/industry-3.svg" alt=""></figure>
+									<h3 class="landing__industries-title">Recycling</h3>
+								</a></li>
+						</ul>
+						<div class="landing__interesting-mid" data-aos="fade-up"><a class="arrowLine" href="#" target="_blank">
+								<div class="the-arrow the-arrow-left"><i class="shaft icon-arrow-med-right"></i></div><span class="arrowLine-main">Show all industries</span>
+								<div class="the-arrow the-arrow-right"><i class="shaft icon-arrow-mini-right"></i></div>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="landing__select-section" id="select">
+					<div class="container">
+						<h2 class="landing__section-title" data-aos="fade-up">Select equipment for mining<br>and processing industry</h2>
+						<h3 class="landing__select-title" data-aos="fade-up">Select your material</h3>
+						<form class="landing__select-form">
+							<div class="filtersBody-checkboxes row">
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="filtersBody-checkbox popup-plain" href="#get-quote" data-type-form="Get a quote">
+										<input type="radio" name="industry" id="item-1" data-title="Ferrous and alloying metal ores">
+										<label for="item-1">Ferrous and alloying metal ores</label>
+									</div>
+								</div>
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="filtersBody-checkbox popup-plain" href="#get-quote" data-type-form="Get a quote">
+										<input type="radio" name="industry" id="item-2" data-title="Rare and rare-earth metal ores">
+										<label for="item-2">Rare and rare-earth metal ores</label>
+									</div>
+								</div>
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="filtersBody-checkbox popup-plain" href="#get-quote" data-type-form="Get a quote">
+										<input type="radio" name="industry" id="item-3" data-title="Неметаллические полезные ископаемые">
+										<label for="item-3">Non-metallic minerals</label>
+									</div>
+								</div>
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="filtersBody-checkbox popup-plain" href="#get-quote" data-type-form="Get a quote">
+										<input type="radio" name="industry" id="item-4" data-title="Non-metallic minerals">
+										<label for="item-4">Nonferrous metal ores</label>
+									</div>
+								</div>
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="filtersBody-checkbox popup-plain" href="#get-quote" data-type-form="Get a quote">
+										<input type="radio" name="industry" id="item-5" data-title="Coal transportation and processing">
+										<label for="item-5">Coal transportation and processing</label>
+									</div>
+								</div>
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="filtersBody-checkbox popup-plain" href="#get-quote" data-type-form="Get a quote">
+										<input type="radio" name="industry" id="item-6" data-title="Stone quarries">
+										<label for="item-6">Stone quarries</label>
+									</div>
+								</div>
+								<div class="col col__xs-12" data-aos="fade-up"><a class="landing__select-link popup-plain" href="#not-found" data-type-form="Haven’t found your material">Haven’t found your material?</a></div>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section class="landing__interesting-section" id="products">
+					<div class="container">
+						<div class="landing__interesting-title-row">
+							<div class="landing__interesting-title-col" data-aos="fade-up">
+								<h2 class="landing__section-title">You can be interested in</h2>
+							</div>
+							<div class="landing__interesting-title-col" data-aos="fade-up"><a class="arrowLine" href="#" target="_blank">
+									<div class="the-arrow the-arrow-left"><i class="shaft icon-arrow-med-right"></i></div><span class="arrowLine-main">Show other equipment</span>
+									<div class="the-arrow the-arrow-right"><i class="shaft icon-arrow-mini-right"></i></div>
+								</a>
+							</div>
+						</div>
+						<div class="landing__interesting-slider trademark-tabs" data-aos="fade-up">
+							<div class="swiper-button">
+								<div class="swiper-btnS-prev"><i class="icon-arrow-right"></i></div>
+								<div class="swiper-btnS-next"><i class="icon-arrow-right"></i></div>
+							</div>
+							<div class="trademark-carousel trademark-carousel--js">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="catalog-content__item">
+											<div class="catalog-content__item-inner">
+												<div class="row">
+													<div class="col col__md-6 col__xs-12 flex-middle"><img src="assets/images/about/slide-1.png" alt="" />
+													</div>
+													<div class="col col__md-6 col__xs-12 flex-column">
+														<div class="tags">
+															<div>#Новинка</div>
+														</div>
+														<p>Стержневой магнитный сепаратор серии СМВР</p>
+														<div class="landing__slide-btns margtop-auto"><a class="btn btn--default btn--full popup-plain" href="#card"><span>Details</span><i class="icons-right icon-arrow-mini-right"></i></a><a class="btn btn--default btn--full popup-plain" href="#download" data-popup-title="Download leaflet" data-type-form="Download leaflet"><span>Download leaflet</span><i class="icon-download"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="catalog-content__item">
+											<div class="catalog-content__item-inner">
+												<div class="row">
+													<div class="col col__md-6 col__xs-12 flex-middle"><img src="assets/images/about/slide-2.png" alt="" />
+													</div>
+													<div class="col col__md-6 col__xs-12 flex-column">
+														<div class="tags">
+															<div>#Новинка</div>
+														</div>
+														<p>Барабанные магнитные сепараторы серий СМБМ и СМБМ-2</p>
+														<div class="landing__slide-btns margtop-auto"><a class="btn btn--default btn--full popup-modal popup-with-zoom-anim" href="#card-1"><span>Details</span><i class="icons-right icon-arrow-mini-right"></i></a><a class="btn btn--default btn--full popup-plain" href="#download" data-popup-title="Download leaflet" data-type-form="Download leaflet"><span>Download leaflet</span><i class="icon-download"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="catalog-content__item">
+											<div class="catalog-content__item-inner">
+												<div class="row">
+													<div class="col col__md-6 col__xs-12 flex-middle"><img src="assets/images/about/slide-3.png" alt="" />
+													</div>
+													<div class="col col__md-6 col__xs-12 flex-column">
+														<div class="tags">
+															<div>#Новинка</div>
+														</div>
+														<p>Барабанные магнитные сепараторы серий СМБМ и СМБМ-2</p>
+														<div class="landing__slide-btns margtop-auto"><a class="btn btn--default btn--full popup-modal popup-with-zoom-anim" href="#card-1"><span>Details</span><i class="icons-right icon-arrow-mini-right"></i></a><a class="btn btn--default btn--full popup-plain" href="#download" data-popup-title="Download leaflet" data-type-form="Download leaflet"><span>Download leaflet</span><i class="icon-download"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="landing__interesting-mid" data-aos="fade-up"><a class="arrowLine" href="#" target="_blank">
+								<div class="the-arrow the-arrow-left"><i class="shaft icon-arrow-med-right"></i></div><span class="arrowLine-main">Show other equipment</span>
+								<div class="the-arrow the-arrow-right"><i class="shaft icon-arrow-mini-right"></i></div>
+							</a>
+						</div>
+						<div class="landing__interesting-bottom">
+							<div class="landing__interesting-bottom-row">
+								<div class="landing__interesting-bottom-col" data-aos="fade-up"><img class="landing__interesting-background" src="assets/images/landing/interesting-background.png" arl=""></div>
+								<div class="landing__interesting-bottom-col">
+									<h3 class="landing__interesting-bottom-title" data-aos="fade-up">products<br>catalog</h3>
+									<div class="landing__interesting-bottom-download-wrapper" data-aos="fade-up"><a class="landing__interesting-bottom-download-link popup-plain" href="#download" data-popup-title="Download catalog" data-type-form="Download catalog"><span class="landing__interesting-bottom-download-text">Download</span><i class="icon-download landing__interesting-bottom-download-icon"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="landing__trademarks-section">
+					<div class="container">
+						<h2 class="landing__section-title" data-aos="fade-up">OUR TRADEMARKS</h2>
+						<div class="landing__trademarks-tabs">
+							<div class="landing__tabs-component" data-aos="fade-up">
+								<ul class="landing__tabs-panel-list">
+									<li class="landing__tabs-panel-item landing__tabs-panel-item--active"><img class="landing__tabs-panel-img" src="assets/images/landing/tab-1.svg" alt=""></li>
+									<li class="landing__tabs-panel-item"><img class="landing__tabs-panel-img" src="assets/images/landing/tab-2.svg" alt=""></li>
+									<li class="landing__tabs-panel-item"><img class="landing__tabs-panel-img" src="assets/images/landing/tab-3.svg" alt=""></li>
+									<li class="landing__tabs-panel-item"><img class="landing__tabs-panel-img" src="assets/images/landing/tab-4.svg" alt=""></li>
+								</ul>
+								<ul class="landing__tabs-content-list">
+									<li class="landing__tabs-content-item landing__tabs-content-item--active">
+										<div class="landing__tabs-content-row">
+											<div class="landing__tabs-content-col">
+												<h3 class="landing__tabs-content-title" data-aos="fade-up">ERGA</h3>
+											</div>
+											<div class="landing__tabs-content-col">
+												<p class="landing__tabs-content-text" data-aos="fade-up">Production of magnetic separators, iron separators and specialized equipment. ERGA produces more than 60 types of industrial and laboratory equipment under ERGA trademark. ERGA equipment is continuously improved and modernized, thus ensuring high performance, operational reliability and safety while increasing cost efficiency of their application.</p>
+											</div>
+										</div>
+									</li>
+									<li class="landing__tabs-content-item">
+										<div class="landing__tabs-content-row">
+											<div class="landing__tabs-content-col">
+												<h3 class="landing__tabs-content-title" data-aos="fade-up">RESOLINE</h3>
+											</div>
+											<div class="landing__tabs-content-col">
+												<p class="landing__tabs-content-text" data-aos="fade-up">RESOLINE complete process solutions. Research and Production Company “ERGA” designs and produces customized complete plants and lines. The scope of supply depends on the task and can include various types of our industrial equipment.</p>
+											</div>
+										</div>
+									</li>
+									<li class="landing__tabs-content-item">
+										<div class="landing__tabs-content-row">
+											<div class="landing__tabs-content-col">
+												<h3 class="landing__tabs-content-title" data-aos="fade-up">ERGUARD</h3>
+											</div>
+											<div class="landing__tabs-content-col">
+												<p class="landing__tabs-content-text" data-aos="fade-up">Manufacture of ERGUARD industrial metal detectors. ERGA manufactures ERGUARD industrial conveyorized, gravity and pipeline metal detectors designed to protect process equipment from damage and fast wear, control quality of raw materials, semi-finished and finished products.</p>
+											</div>
+										</div>
+									</li>
+									<li class="landing__tabs-content-item">
+										<div class="landing__tabs-content-row">
+											<div class="landing__tabs-content-col">
+												<h3 class="landing__tabs-content-title" data-aos="fade-up">ЭЛКРОН</h3>
+											</div>
+											<div class="landing__tabs-content-col">
+												<p class="landing__tabs-content-text" data-aos="fade-up">Manufacture of ELKRON electrostatic and triboelectrostatic separators. ERGA manufactures industrial and laboratory ELKRON drum corona electrostatic separators for dry separation of materials with different electrical properties.</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="landing__partners-section">
+					<div class="container">
+						<h2 class="landing__section-title" data-aos="fade-up">Our partners</h2>
+						<div class="landing__partners-slider-block trademark-tabs" data-aos="fade-up">
+							<div class="swiper-button landing__partners-slider-buttons">
+								<div class="swiper-btnS-prev"><i class="icon-arrow-right"></i></div>
+								<div class="swiper-btnS-next"><i class="icon-arrow-right"></i></div>
+							</div>
+							<div class="trademark-carousel trademark-carousel--js">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-1.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-2.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-1.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-2.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-1.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-2.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-1.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+									<div class="swiper-slide"><a class="landing__partners-slider-slide" href="#">
+											<div class="landing__partners-slide-block">
+												<figure class="landing__partners-slide-image"><img class="landing__partners-slide-img" src="assets/images/landing/partners-2.png"></figure>
+											</div>
+											<h3 class="landing__partners-slide-title">Cimaghand</h3>
+										</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="landing__sert-section">
+					<div class="landing__sert-container">
+						<div class="container">
+							<h2 class="landing__section-title" data-aos="fade-up">Certificates</h2>
+						</div>
+						<div class="landing__sert-subslider">
+							<div class="landing__sert-subslider-swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="container">
+											<p class="landing__sert-subslider-text" data-aos="fade-up">Certificate of Conformity to ISO 9001:2015 Quality Management System</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="landing__sert-control-wrapper">
+							<div class="container">
+								<div class="newsOne-slider landing__sert-control">
+									<div class="swiper-pagination--js swiper-pagination" data-aos="fade-up"></div>
+									<div class="swiper-button" data-aos="fade-up">
+										<div class="swiper-btnSN-next"><i class="icon-arrow-right"></i></div>
+										<div class="swiper-btnSN-prev"><i class="icon-arrow-left"></i></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="landing__sert-slider">
+							<div class="landing__sert-slider-swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+									<div class="swiper-slide">
+										<figure class="landing__sert-slider-image" data-aos="fade-up"><img class="landing__sert-slider-img landing__sert-slider-img--mobile" src="assets/images/landing/sert-mobile.jpeg" alt=""><img class="landing__sert-slider-img landing__sert-slider-img--desktop" src="assets/images/landing/sert-desktop.jpeg" alt=""></figure>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="landing__sert-marquee" data-aos="fade-up">
+						<div class="marquee marquees">ISO 9001:2015 Quality Management System — ISO 9001:2015 Quality Management System — ISO 9001:2015 Quality Management System — ISO 9001:2015 Quality Management System — ISO 9001:2015 Quality Management System — ISO 9001:2015 Quality Management System</div>
+					</div>
+				</section>
+				<section class="landing__gallery-section">
+					<div class="container" data-aos="fade-up">
+						<h2 class="landing__section-title" data-aos="fade-up">GALLERY</h2>
+						<div class="landing__gallery-slider newsOne-slider">
+							<div class="landing__gallery-swiper" data-aos="fade-up">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-1.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-2.jpg" alt="" />
+										</div>
+									</div>
+									<div class="swiper-slide t--mask">
+										<div class="t__content"><img src="assets/images/news/slide-3.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination--js swiper-pagination" data-aos="fade-up"></div>
+							<div class="swiper-button" data-aos="fade-up">
+								<div class="swiper-btn-next"><i class="icon-arrow-right"></i></div>
+								<div class="swiper-btn-prev"><i class="icon-arrow-left"></i></div>
+							</div>
+						</div>
+					</div>
+					<div class="landing__gallery-marquee" data-aos="fade-up">
+						<div class="marquee marquees">Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA — Research &amp; Production Company ERGA</div>
+					</div>
+				</section>
+				<section class="landing__contacts-section" id="contact" style="background-image: url('images/contacts-background.svg')">
+					<div class="container">
+						<div class="landing__contacts-row">
+							<div class="landing__contacts-col">
+								<h2 class="landing__contacts-title" data-aos="fade-up">Head office</h2>
+								<ul class="landing__contacts-info-list">
+									<li class="landing__contacts-info-row" data-aos="fade-up">
+										<div class="landing__contacts-info-col">
+											<h3 class="landing__contacts-info-title">Address</h3>
+										</div>
+										<div class="landing__contacts-info-col">
+											<p class="landing__contacts-info-text">Russia, Kaluga, Khrustalnaya st., 22 (POB 65)</p>
+										</div>
+									</li>
+									<li class="landing__contacts-info-row" data-aos="fade-up">
+										<div class="landing__contacts-info-col"></div>
+										<div class="landing__contacts-info-col">
+											<div class="landing__contacts-person-row">
+												<figure class="landing__contacts-person-image"><img class="landing__contacts-person-img" src="assets/images/landing/contact-1.jpeg" alt=""></figure>
+												<p class="landing__contacts-person-name">Alexey<br>Chernov</p>
+											</div>
+										</div>
+									</li>
+									<li class="landing__contacts-info-row" data-aos="fade-up">
+										<div class="landing__contacts-info-col">
+											<h3 class="landing__contacts-info-title">E-mail</h3>
+										</div>
+										<div class="landing__contacts-info-col">
+											<div class="landing__contacts-link-wrapper"><a class="landing__contacts-info-text" href="#">info@rusmagnet.com</a></div>
+											<div class="landing__contacts-info-block">
+												<ul class="landing__contacts-social-list">
+													<li class="landing__contacts-social-item"><a class="landing__contacts-social-link">
+															<figure class="landing__contacts-social-image">
+																<svg class="landing__contacts-social-img" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0)">
+																		<path d="M0.125229 15.9998L1.23365 11.9075C0.529314 10.7153 0.155235 9.3615 0.148292 7.97119C0.126498 3.62459 3.68317 0.0679279 8.07698 0.0438648C10.2092 0.0328505 12.2152 0.84334 13.7289 2.32551C15.2419 3.80768 16.0812 5.78417 16.0921 7.89117C16.1139 12.2384 12.5572 15.7951 8.16337 15.8192C6.82948 15.8258 5.51321 15.5022 4.34546 14.88L0.125229 15.9998ZM4.53337 13.4515C5.6604 14.1051 6.73504 14.4943 8.1534 14.4872C11.8052 14.4672 14.7639 11.5112 14.7461 7.89722C14.7276 4.27593 11.7508 1.3564 8.08695 1.37514C4.43248 1.39516 1.47581 4.35116 1.49426 7.96449C1.50166 9.43965 1.94475 10.5418 2.68505 11.6934L2.02867 14.1157L4.53337 13.4515ZM12.1462 9.78712C12.0962 9.70518 11.9632 9.65685 11.7629 9.55916C11.5633 9.46146 10.5814 8.99013 10.398 8.9255C10.2153 8.86086 10.0824 8.82844 9.95011 9.02674C9.81847 9.22437 9.43883 9.67067 9.32359 9.80258C9.20835 9.93449 9.09181 9.9517 8.89219 9.85401C8.69257 9.75631 8.04928 9.55231 7.28482 8.88486C6.69008 8.36566 6.28638 7.72276 6.16934 7.52582C6.0523 7.32955 6.15561 7.22224 6.25428 7.12357C6.34361 7.0349 6.45209 6.89242 6.55134 6.77652C6.65193 6.66193 6.68432 6.57953 6.75063 6.44723C6.81627 6.3156 6.78279 6.20041 6.73198 6.1019C6.68117 6.00406 6.2777 5.03627 6.10998 4.6427C5.94566 4.25971 5.78172 4.31233 5.6597 4.30703L5.27759 4.30249C5.14487 4.30322 4.9293 4.35346 4.74806 4.55203C4.56682 4.7506 4.05464 5.22945 4.05995 6.19941C4.06527 7.16937 4.78426 8.10228 4.88419 8.23301C4.98478 8.36373 6.30008 10.3469 8.30292 11.1892C8.77927 11.3895 9.15128 11.5088 9.44068 11.598C9.91875 11.7453 10.353 11.7217 10.6959 11.6694C11.0783 11.611 11.8717 11.1863 12.0354 10.7252C12.1991 10.2635 12.1969 9.86906 12.1462 9.78712Z" fill="white"></path>
+																	</g>
+																	<defs>
+																		<clipPath id="clip0">
+																			<rect width="16.0874" height="15.9121" fill="white" transform="translate(0 0.0878906) rotate(-0.313783)"></rect>
+																		</clipPath>
+																	</defs>
+																</svg>
+															</figure><span class="landing__contacts-social-title">WhatsApp</span>
+														</a></li>
+													<li class="landing__contacts-social-item"><a class="landing__contacts-social-link">
+															<figure class="landing__contacts-social-image">
+																<svg class="landing__contacts-social-img" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M0.282607 7.71437L3.96933 9.09037L5.39631 13.6795C5.48762 13.9735 5.84703 14.0821 6.08559 13.8871L8.14063 12.2118C8.35605 12.0362 8.66287 12.0275 8.88799 12.1909L12.5946 14.8819C12.8498 15.0674 13.2113 14.9276 13.2753 14.6192L15.9906 1.55837C16.0604 1.22152 15.7294 0.940506 15.4087 1.06456L0.278287 6.90141C-0.0950995 7.04541 -0.0918461 7.57405 0.282607 7.71437ZM5.16634 8.35789L12.3716 3.92019C12.5011 3.84067 12.6343 4.01576 12.5231 4.11891L6.57669 9.64637C6.36767 9.84093 6.23285 10.1013 6.19466 10.3839L5.9921 11.885C5.96527 12.0855 5.68373 12.1054 5.62842 11.9114L4.84938 9.17405C4.76015 8.86184 4.89018 8.52834 5.16634 8.35789Z" fill="white"></path>
+																</svg>
+															</figure><span class="landing__contacts-social-title">Telegram</span>
+														</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="landing__contacts-info-row" data-aos="fade-up">
+										<div class="landing__contacts-info-col">
+											<h3 class="landing__contacts-info-title">Phone</h3>
+										</div>
+										<div class="landing__contacts-info-col">
+											<div class="landing__contacts-line-row">
+												<div class="landing__contacts-line-col">
+													<div class="landing__contacts-link-wrapper"><a class="landing__contacts-info-text" href="#">+7 4842 922-199</a></div>
+													<div class="landing__contacts-info-block landing__contacts-info-block--caption"><span class="landing__contacts-info-text landing__contacts-info-text--small">Multichannel</span></div>
+												</div>
+												<div class="landing__contacts-line-col">
+													<p class="landing__contacts-info-text landing__contacts-info-text--small">8:30 a.m. — 5:30 p.m. Moscow time<br>SAT, SUN — days off</p>
+												</div>
+											</div>
+											<div class="landing__contacts-info-block">
+												<ul class="landing__contacts-social-list">
+													<li class="landing__contacts-social-item"><a class="landing__contacts-social-link">
+															<figure class="landing__contacts-social-image">
+																<svg class="landing__contacts-social-img" width="7" height="15" viewBox="0 0 7 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M4.65426 3.30769V4.80769H7L6.70213 7.5H4.65426V15H1.45213V7.5H0V4.80769H1.45213V3.30769C1.45213 3.30769 1.19149 0.461538 3.79787 0H7V2.42308H5.54787C5.54787 2.38462 4.72872 2.34615 4.65426 3.30769Z" fill="white"></path>
+																</svg>
+															</figure><span class="landing__contacts-social-title">Facebook</span>
+														</a></li>
+													<li class="landing__contacts-social-item"><a class="landing__contacts-social-link">
+															<figure class="landing__contacts-social-image">
+																<svg class="landing__contacts-social-img" width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M15.6013 1.04745C14.2456 0.0487689 11.2329 0 8.5 0C5.76709 0 2.75443 0.0487689 1.39873 1.04745C0.043038 2.04614 0 4.20995 0 5.49992C0 6.78988 0.043038 8.9537 1.39873 9.95238C2.75443 10.9511 5.76709 11 8.5 11V10.9998C11.2329 10.9998 14.2456 10.9511 15.6013 9.95238C16.957 8.9537 17 6.78988 17 5.49992C17 4.20995 16.957 2.04614 15.6013 1.04745ZM11.1935 5.79087L11.194 5.79153L6.57586 8.17106C6.55107 8.18837 6.52404 8.20219 6.49495 8.21284L6.48927 8.21584L6.48892 8.21467C6.45156 8.22765 6.4118 8.23598 6.36979 8.23598C6.17371 8.23598 6.01481 8.08218 6.01481 7.89276V3.09675C6.01481 2.90717 6.17388 2.75354 6.36979 2.75354C6.42505 2.75354 6.47687 2.76685 6.52352 2.78866L6.5237 2.78849L11.194 5.20897L11.1938 5.2093C11.2945 5.26989 11.3622 5.37708 11.3622 5.50008C11.362 5.62309 11.2942 5.73028 11.1935 5.79087Z" fill="white"></path>
+																</svg>
+															</figure><span class="landing__contacts-social-title">Youtube</span>
+														</a></li>
+													<li class="landing__contacts-social-item"><a class="landing__contacts-social-link">
+															<figure class="landing__contacts-social-image">
+																<svg class="landing__contacts-social-img" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clip-path="url(#clip0)">
+																		<path d="M7.00027 4.62012C5.70527 4.62012 4.65527 5.67012 4.65527 6.96512C4.65527 8.26012 5.70527 9.31012 7.00027 9.31012C8.29527 9.31012 9.34527 8.26012 9.34527 6.96512C9.34527 5.67012 8.29527 4.62012 7.00027 4.62012Z" fill="white"></path>
+																		<path d="M9.45 0H4.55C2.065 0 0 2.065 0 4.55V9.415C0 11.935 2.065 13.965 4.55 13.965H9.415C11.935 13.965 13.965 11.9 13.965 9.415V4.55C14 2.065 11.935 0 9.45 0ZM7 10.64C5.005 10.64 3.36 9.03 3.36 7C3.36 4.97 5.005 3.36 7 3.36C8.995 3.36 10.64 4.97 10.64 7C10.64 8.995 9.03 10.64 7 10.64ZM10.57 4.235C10.08 4.235 9.695 3.815 9.695 3.36C9.695 2.905 10.115 2.45 10.57 2.45C11.06 2.45 11.445 2.87 11.445 3.325C11.445 3.85 11.06 4.235 10.57 4.235Z" fill="white"></path>
+																	</g>
+																	<defs>
+																		<clipPath id="clip0">
+																			<rect width="14" height="14" fill="white"></rect>
+																		</clipPath>
+																	</defs>
+																</svg>
+															</figure><span class="landing__contacts-social-title">Instagram</span>
+														</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="landing__contacts-info-row" data-aos="fade-up">
+										<div class="landing__contacts-info-col">
+											<h3 class="landing__contacts-info-title">Web</h3>
+										</div>
+										<div class="landing__contacts-info-col">
+											<div class="landing__contacts-link-wrapper"><a class="landing__contacts-info-text landing__contacts-info-link" href="#">rusmagnet.com</a></div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="landing__contacts-col">
+								<h2 class="landing__contacts-title landing__contacts-title--elongated" data-aos="fade-up">Your contact in Iran</h2>
+								<ul class="landing__contacts-info-list">
+									<li class="landing__contacts-info-row landing__contacts-info-row--desktop--min-height--50" data-aos="fade-up">
+										<div class="landing__contacts-info-col">
+											<h3 class="landing__contacts-info-title">Address</h3>
+										</div>
+										<div class="landing__contacts-info-col">
+											<p class="landing__contacts-info-text">Tehran, Cimaghand Ltd.</p>
+										</div>
+									</li>
+									<li class="landing__contacts-info-row" data-aos="fade-up">
+										<div class="landing__contacts-info-col"></div>
+										<div class="landing__contacts-info-col">
+											<div class="landing__contacts-person-row">
+												<figure class="landing__contacts-person-image"><img class="landing__contacts-person-img" src="assets/images/landing/contact-2.jpeg" alt=""></figure>
+												<p class="landing__contacts-person-name">Hamed Haghi</p>
+											</div>
+										</div>
+									</li>
+									<li class="landing__contacts-info-row" data-aos="fade-up">
+										<div class="landing__contacts-info-col">
+											<h3 class="landing__contacts-info-title">E-mail</h3>
+										</div>
+										<div class="landing__contacts-info-col">
+											<div class="landing__contacts-link-wrapper"><a class="landing__contacts-info-text" href="#">hamed.haghi@gmail.com</a></div>
+											<div class="landing__contacts-info-block">
+												<div class="landing__contacts-line-row">
+													<div class="landing__contacts-line-col">
+														<ul class="landing__contacts-social-list">
+															<li class="landing__contacts-social-item"><a class="landing__contacts-social-link">
+																	<figure class="landing__contacts-social-image">
+																		<svg class="landing__contacts-social-img" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0.282607 7.71437L3.96933 9.09037L5.39631 13.6795C5.48762 13.9735 5.84703 14.0821 6.08559 13.8871L8.14063 12.2118C8.35605 12.0362 8.66287 12.0275 8.88799 12.1909L12.5946 14.8819C12.8498 15.0674 13.2113 14.9276 13.2753 14.6192L15.9906 1.55837C16.0604 1.22152 15.7294 0.940506 15.4087 1.06456L0.278287 6.90141C-0.0950995 7.04541 -0.0918461 7.57405 0.282607 7.71437ZM5.16634 8.35789L12.3716 3.92019C12.5011 3.84067 12.6343 4.01576 12.5231 4.11891L6.57669 9.64637C6.36767 9.84093 6.23285 10.1013 6.19466 10.3839L5.9921 11.885C5.96527 12.0855 5.68373 12.1054 5.62842 11.9114L4.84938 9.17405C4.76015 8.86184 4.89018 8.52834 5.16634 8.35789Z" fill="white"></path>
+																		</svg>
+																	</figure><span class="landing__contacts-social-title">Telegram</span>
+																</a></li>
+														</ul>
+													</div>
+													<div class="landing__contacts-line-col">
+														<p class="landing__contacts-info-text landing__contacts-info-text--small">9:30 a.m. — 5:30 p.m.<br>THU, FRI — days off</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container" data-aos="fade-up">
+						<form class="contacts-form" action="">
+							<h3>Any questions?</h3>
+							<div class="row">
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="form__group">
+										<div class="relative">
+											<div class="input">
+												<input class="input__field" type="text" id="name-landing" name="name" />
+												<label class="input__label" for="name-landing"><span class="input__label-content input__label-content">Name</span></label>
+											</div>
+											<div class="input-error">Please, fill in the field correctly</div>
+										</div>
+									</div>
+									<div class="form__group">
+										<div class="relative">
+											<div class="input">
+												<input class="input__field required" type="email" id="email-landing" name="email" required="required" />
+												<label class="input__label" for="email-landing"><span class="input__label-content input__label-content">E-mail*</span></label>
+											</div>
+											<div class="input-error">Please, fill in the field correctly</div>
+										</div>
+									</div>
+									<div class="form__group">
+										<div class="relative">
+											<div class="input">
+												<input class="input__field required" type="text" id="phone-landing" name="phone" required="required" />
+												<label class="input__label" for="phone-landing"><span class="input__label-content input__label-content">Telephone*</span></label>
+											</div>
+											<div class="input-error">Please, fill in the field correctly</div>
+										</div>
+									</div>
+								</div>
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="form__group">
+										<div class="relative">
+											<div class="input">
+												<input class="input__field" type="text" id="company-landing" name="company" />
+												<label class="input__label" for="company-landing"><span class="input__label-content input__label-content">Company name</span></label>
+											</div>
+											<div class="input-error">Please, fill in the field correctly</div>
+										</div>
+									</div>
+									<div class="form__group">
+										<div class="input textarea textarea--small">
+											<textarea class="input__field" name="text" id="text-landing"></textarea>
+											<label class="input__label" for="text-landing"><span class="input__label-content input__label-content">Your question</span></label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="checkbox form__group">
+										<input type="checkbox" id="faq-landing">
+										<label class="label" for="faq-landing"><span>You consent to the processing of your personal data in accordance with <a href="#">the site's regulatory documents</a></span></label>
+									</div>
+								</div>
+								<div class="col col__md-6 col__xs-12" data-aos="fade-up">
+									<div class="form__group"><a class="btn btn--full btn--primary send--js btn-arrow" href="#"><i class="icons-left icon-arrow-med-right"></i><span>Send</span><i class="icons-right icon-arrow-mini-right"></i></a></div>
+								</div>
+							</div>
+						</form>
+						<form class="contacts-form return-form" action="">
+							<h3>Any questions?</h3>
+							<div class="return-inner form__group">
+								<h5>We have accepted your request <br> and will process it as soon as we can.</h5>
+							</div>
+							<div class="form__group"><a class="btn btn--full btn--info return--js btn-arrow" href="#"><i class="icons-left icon-arrow-med-right"></i><span>Send more</span><i class="icons-right icon-arrow-mini-right"></i></a></div>
+						</form>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer-plain">
+			<div class="container" data-aos="fade-up">
+				<div class="footer-plain__row">
+					<div class="footer-plain__col"><a class="footer-plain__logo-image" href="#"><img class="footer-plain__logo-img" src="assets/images/logo-en.svg" alt=""></a></div>
+					<div class="footer-plain__col">
+						<ul class="footer-plain__list">
+							<li class="footer-plain__list-item">
+								<div class="footer-plain__agreement-wrapper"><a class="footer-plain__agreement-link" href="#">User agreement</a></div>
+							</li>
+							<li class="footer-plain__list-item">
+								<p class="footer-plain__developer-info">Made in&nbsp;<a class="footer-plain__developer-link" href="https://cloudmill.ru/">CloudMill</a></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="scroll-up">
+			<svg class="scroll-up__icon scroll-up__icon--mobile" width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M2.22339 6.77708L5.00016 2.26815L7.77694 6.77708L2.22339 6.77708Z" stroke="#0000BD" stroke-width="1.5"></path>
+			</svg>
+			<svg class="scroll-up__icon scroll-up__icon--desktop" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M1.41449 10.5L7 1.43026L12.5855 10.5L1.41449 10.5Z" stroke="#0000BD" stroke-width="1.5"></path>
+			</svg>
+		</div>
+		<div class="mfp-hide popup-block zoom-anim-dialog" id="download">
+			<div class="background"></div>
+			<div class="container relative">
+				<div class="close-popup popup-modal-dismiss"><i class="icon-close"></i></div>
+				<h2>
+					<div class="revealOut"><span class="revealIn" data-aos="">Download</span></div>
+				</h2>
+				<div class="row" data-aos="">
+					<div class="col col__md-6 col__xs-12">
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field" type="text" id="name-landing" name="name" />
+									<label class="input__label" for="name-landing"><span class="input__label-content input__label-content">Name</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field required" type="email" id="email-landing" name="email" required="required" />
+									<label class="input__label" for="email-landing"><span class="input__label-content input__label-content">E-mail*</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field required" type="text" id="phone-landing" name="phone" required="required" />
+									<label class="input__label" for="phone-landing"><span class="input__label-content input__label-content">Telephone*</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+					</div>
+					<div class="col col__md-6 col__xs-12">
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field" type="text" id="company-landing" name="company" />
+									<label class="input__label" for="company-landing"><span class="input__label-content input__label-content">Company name</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+						<div class="form__group">
+							<div class="input textarea textarea--small">
+								<textarea class="input__field" name="text" id="text-landing"></textarea>
+								<label class="input__label" for="text-landing"><span class="input__label-content input__label-content">Additional information</span></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" data-aos="">
+					<div class="col col__md-6 col__xs-12">
+						<div class="checkbox form__group">
+							<input type="checkbox" id="faq-landing">
+							<label class="label" for="faq-landing"><span>You consent to the processing of your personal data in accordance with <a href="#">the site's regulatory documents</a></span></label>
+						</div>
+					</div>
+					<div class="col col__md-6 col__xs-12">
+						<div class="form__group"><a class="btn btn--full btn--primary send--js btn-arrow" href="#"><i class="icons-left icon-arrow-med-right"></i><span>Send</span><i class="icons-right icon-arrow-mini-right"></i></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mfp-hide popup-block zoom-anim-dialog" id="get-quote">
+			<div class="background"></div>
+			<div class="container relative">
+				<div class="close-popup popup-modal-dismiss"><i class="icon-close"></i></div>
+				<h2>
+					<div class="revealOut"><span class="revealIn" data-aos="">Get a quote</span></div>
+				</h2>
+				<form class="form-request">
+					<div class="row" data-aos="">
+						<div class="col col__md-6 col__xs-12">
+							<div class="form__group">
+								<div class="relative">
+									<div class="input">
+										<input class="input__field" type="text" id="name-landing" name="name" />
+										<label class="input__label" for="name-landing"><span class="input__label-content input__label-content">Name</span></label>
+									</div>
+									<div class="input-error">Please, fill in the field correctly</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<div class="relative">
+									<div class="input">
+										<input class="input__field required" type="email" id="email-landing" name="email" required="required" />
+										<label class="input__label" for="email-landing"><span class="input__label-content input__label-content">E-mail*</span></label>
+									</div>
+									<div class="input-error">Please, fill in the field correctly</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<div class="relative">
+									<div class="input">
+										<input class="input__field required" type="text" id="phone-landing" name="phone" required="required" />
+										<label class="input__label" for="phone-landing"><span class="input__label-content input__label-content">Telephone*</span></label>
+									</div>
+									<div class="input-error">Please, fill in the field correctly</div>
+								</div>
+							</div>
+						</div>
+						<div class="col col__md-6 col__xs-12">
+							<div class="form__group">
+								<div class="relative">
+									<div class="input">
+										<input class="input__field" type="text" id="company-landing" name="company" />
+										<label class="input__label" for="company-landing"><span class="input__label-content input__label-content">Company name</span></label>
+									</div>
+									<div class="input-error">Please, fill in the field correctly</div>
+								</div>
+							</div>
+							<div class="form__group">
+								<div class="input textarea textarea--small">
+									<textarea class="input__field" name="text" id="text-landing"></textarea>
+									<label class="input__label" for="text-landing"><span class="input__label-content input__label-content">Describe your task</span></label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" data-aos="">
+						<div class="col col__md-6 col__xs-12">
+							<div class="checkbox form__group">
+								<input type="checkbox" id="faq-landing">
+								<label class="label" for="faq-landing"><span>You consent to the processing of your personal data in accordance with <a href="#">the site's regulatory documents</a></span></label>
+							</div>
+						</div>
+						<div class="col col__md-6 col__xs-12">
+							<div class="form__group"><a class="btn btn--full btn--primary send--js btn-arrow" href="#"><i class="icons-left icon-arrow-med-right"></i><span>Send</span><i class="icons-right icon-arrow-mini-right"></i></a></div>
+						</div>
+					</div>
+				</form>
+				<form class="form-response" data-aos="">
+					<div class="return-inner form__group">
+						<h5>We have accepted your request <br> and will process it as soon as we can.</h5>
+					</div>
+					<div class="form__group"><a class="btn btn--full btn--info return--js btn-arrow" href="#"><i class="icons-left icon-arrow-med-right"></i><span>Send more</span><i class="icons-right icon-arrow-mini-right"></i></a></div>
+				</form>
+			</div>
+		</div>
+		<div class="mfp-hide popup-block zoom-anim-dialog" id="not-found">
+			<div class="background"></div>
+			<div class="container relative">
+				<div class="close-popup popup-modal-dismiss"><i class="icon-close"></i></div>
+				<h2>
+					<div class="revealOut"><span class="revealIn" data-aos="">Haven't found your material?</span></div>
+				</h2>
+				<div class="row" data-aos="">
+					<div class="col col__md-6 col__xs-12">
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field" type="text" id="name-landing" name="name" />
+									<label class="input__label" for="name-landing"><span class="input__label-content input__label-content">Name</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field required" type="email" id="email-landing" name="email" required="required" />
+									<label class="input__label" for="email-landing"><span class="input__label-content input__label-content">E-mail*</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field required" type="text" id="phone-landing" name="phone" required="required" />
+									<label class="input__label" for="phone-landing"><span class="input__label-content input__label-content">Telephone*</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field" type="text" id="company-landing" name="company" />
+									<label class="input__label" for="company-landing"><span class="input__label-content input__label-content">Company name</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+					</div>
+					<div class="col col__md-6 col__xs-12">
+						<div class="form__group">
+							<div class="relative">
+								<div class="input">
+									<input class="input__field required" type="text" id="material-landing" name="material" required="required" />
+									<label class="input__label" for="material-landing"><span class="input__label-content input__label-content">Specify your material*</span></label>
+								</div>
+								<div class="input-error">Please, fill in the field correctly</div>
+							</div>
+						</div>
+						<div class="form__group">
+							<div class="input textarea textarea--large">
+								<textarea class="input__field" name="text" id="text-landing"></textarea>
+								<label class="input__label" for="text-landing"><span class="input__label-content input__label-content">Describe your task</span></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" data-aos="">
+					<div class="col col__md-6 col__xs-12">
+						<div class="checkbox form__group">
+							<input type="checkbox" id="faq-landing">
+							<label class="label" for="faq-landing"><span>You consent to the processing of your personal data in accordance with <a href="#">the site's regulatory documents</a></span></label>
+						</div>
+					</div>
+					<div class="col col__md-6 col__xs-12">
+						<div class="form__group"><a class="btn btn--full btn--primary send--js btn-arrow" href="#"><i class="icons-left icon-arrow-med-right"></i><span>Send</span><i class="icons-right icon-arrow-mini-right"></i></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mfp-hide popup-block zoom-anim-dialog" id="response">
+			<div class="background"></div>
+			<div class="container relative" data-aos="">
+				<div class="close-popup popup-modal-dismiss"><i class="icon-close"></i></div>
+				<h2>
+					<div class="revealOut"><span class="revealIn" data-aos="">Get a quote</span></div>
+				</h2>
+				<div class="return-inner form__group">
+					<h5>We have accepted your request <br> and will process it as soon as we can.</h5>
+				</div>
+				<div class="form__group"><a class="btn btn--full btn--info return--js btn-arrow" href="#"><i class="icons-left icon-arrow-med-right"></i><span>Send more</span><i class="icons-right icon-arrow-mini-right"></i></a></div>
+			</div>
+		</div>
+		<div class="card-popup mfp-hide popup-block zoom-anim-dialog" id="card">
+			<div class="background"></div>
+			<div class="card-popup__close close-popup popup-modal-dismiss"><i class="icon-close"></i></div>
+			<div class="card-popup__container">
+				<div class="card-popup__show">
+					<div class="card-popup__show-top" data-aos="">
+						<figure class="card-popup__logo-image" data-aos=""><img class="card-popup__logo-img" src="assets/images/card/elkron.svg" alt=""></figure>
+						<div class="card-popup__show-top-buttons landing__top-slider-buttons" data-aos="">
+							<div class="landing__top-slider-button landing__top-slider-button--left"><i class="icon-arrow-right"></i></div>
+							<div class="landing__top-slider-button landing__top-slider-button--right"><i class="icon-arrow-right"></i></div>
+						</div>
+					</div>
+					<div class="card-popup__show-content">
+						<div class="card-popup__slider" data-aos="">
+							<div class="card-popup__slider-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide card-popup__slider-slide" data-aos="">
+										<figure class="card-popup__slider-image"><img class="card-popup__slider-img" src="assets/images/landing/card-1.png"></figure>
+									</div>
+									<div class="swiper-slide card-popup__slider-slide" data-aos="">
+										<figure class="card-popup__slider-image"><img class="card-popup__slider-img" src="assets/images/landing/card-1.png"></figure>
+									</div>
+									<div class="swiper-slide card-popup__slider-slide" data-aos="">
+										<figure class="card-popup__slider-image"><img class="card-popup__slider-img" src="assets/images/landing/card-1.png"></figure>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-popup__show-content-buttons landing__top-slider-buttons">
+							<div class="landing__top-slider-button landing__top-slider-button--left" data-aos=""><i class="icon-arrow-right"></i></div>
+							<div class="landing__top-slider-button landing__top-slider-button--right" data-aos=""><i class="icon-arrow-right"></i></div>
+						</div><a class="card-popup__button btn btn--primary btn-arrow btn--full popup-plain" href="#get-quote" data-aos=""><i class="icons-left icon-arrow-med-right"></i><span>Get a quote</span><i class="icons-right icon-arrow-mini-right"></i></a>
+					</div>
+				</div>
+				<div class="card-popup__info" data-aos="">
+					<div class="card-popup__info-content">
+						<div class="card-top__right" data-aos="fade-up">
+							<h1>
+								<div class="revealOut"><span class="revealIn" data-aos="">ELKRON ESS electrostatic separators </span></div>
+							</h1>
+							<p>Electrostatic corona drum separator for separation of materials with different electrical properties.</p>
+							<hr>
+							<ul class="list--unstyled">
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-1 1.svg" alt="" />
+									</div><span>Separation/cleaning efficiency up to 99.8%</span>
+								</li>
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-2 2.svg" alt="" />
+									</div><span>High capacity</span>
+								</li>
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-3 3.svg" alt="" />
+									</div><span>Fine adjustment of separation mode</span>
+								</li>
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-4.svg" alt="" />
+									</div><span>Automatic cleaning of electrodes</span>
+								</li>
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-5.svg" alt="" />
+									</div><span>Touch Screen intuitive control</span>
+								</li>
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-6.svg" alt="" />
+									</div><span>Reliable components from the world leading manufacturers (Japan, Germany)</span>
+								</li>
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-1 1.svg" alt="" />
+									</div><span>Low power consumption (from 0,25 kW)</span>
+								</li>
+								<li>
+									<div class="image"><img src="assets/images/icons/ico-slide-2 2.svg" alt="" />
+									</div><span>Dry separation method</span>
+								</li>
+							</ul>
+						</div>
+						<div class="basecontent" data-aos="fade-up"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/vendor.js"></script>
+		<script src="assets/app.js"></script>
+	</body>
+
+</html>
